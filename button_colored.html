@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width,initial-scale=1">
+    <title>Button_colored</title>
+</head>
+<style>
+    html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        font-size: 62.5%;
+    }
+
+    body {
+        font-size: 1.6rem;
+    }
+
+    .container {
+        max-width: 47rem;
+        max-height: 17rem;
+        background: rgb(237,237,237);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        padding: 1.3rem 7.9rem;
+    }
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .btn {
+
+        width: 32.05128%;
+        height: 3rem;
+        background: transparent;
+        border: 0.2rem solid transparent;
+        box-sizing: border-box;
+        outline: none;
+        user-select: none;
+        border-radius: 0.5rem 0.5rem;
+        float: left;
+        color: white;
+        margin: 0.9rem 0.2rem;
+
+
+    }
+    .btn--one {
+        background: rgb(35,35,35);
+        color: rgb(203,209,205);
+        border-color: #000;
+
+    }
+
+    .btn--two {
+        background: grey;
+        color: rgb(203, 209, 205);
+        border-color: dimgrey;
+    }
+    .btn--three {
+        background: rgb(245,245,245);
+        color: grey;
+        border-color: darkgrey;
+    }
+
+    .btn--four {
+        background: rgb(248,148,1);
+        border-color: darkorange;
+    }
+
+    .btn--five {
+        background: rgb(2,135,178);
+        border-color: rgb(0,122,163);
+    }
+    .btn--six {
+        background: rgb(107,153,2);
+        border-color: rgb(89,128,3);
+    }
+
+    .btn--seven {
+        background: rgb(193,33,19);
+        border-color: rgb(152,19,14);
+    }
+
+    .btn--eight {
+        background: rgb(209,83,95);
+        border-color: rgb(183,60,78);
+    }
+    .btn--nine {
+        background: rgb(250,164,203);
+        border-color: rgb(207,115,154);
+    }
+
+    .btn:hover {
+        border-color: #006a8e;
+    }
+    .btn:active {
+        transform: scale(1.05);
+    }
+
+    .btn:focus {
+        border-color: red;
+    }
+
+
+</style>
+<body>
+<div class="container">
+    <div class="buttons">
+        <button class="btn btn--one">Button</button>
+        <button class="btn btn--two">Button</button>
+        <button class="btn btn--three">Button</button>
+        <button class="btn btn--four">Button</button>
+        <button class="btn btn--five">Button</button>
+        <button class="btn btn--six">Button</button>
+        <button class="btn btn--seven">Button</button>
+        <button class="btn btn--eight">Button</button>
+        <button class="btn btn--nine">Button</button>
+    </div>
+</div>
+</body>
+</html>
+
